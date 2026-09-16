@@ -1,0 +1,14 @@
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.6; }
+body { margin: 0; background: #f2f5fd; color: #101426; }
+main { width: min(760px, calc(100% - 40px)); margin: 48px auto; }
+h1, h2 { line-height: 1.2; }
+h1 { color: #2b5ce6; }
+a { color: #2b5ce6; }
+.note { padding: 16px 18px; border: 2px solid #c9d5f2; border-radius: 12px; background: #fff; }
+footer { margin-top: 48px; color: #5c6684; }
+@media (prefers-color-scheme: dark) {
+  body { background: #0e1220; color: #eef2ff; }
+  h1, a { color: #82a0ff; }
+  .note { background: #181f35; border-color: #37426a; }
+  footer { color: #9aa5c6; }
+}
